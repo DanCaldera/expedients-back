@@ -7,7 +7,7 @@ const bodyParser = require('body-parser')
 
 const cors = require('cors')
 
-const url = `mongodb+srv://mhdbuser:admin123@cluster0-1epea.mongodb.net/store?retryWrites=true&w=majority`
+const url = `mongodb+srv://mhdbuser:admin123@cluster0-1epea.mongodb.net/expedients?retryWrites=true&w=majority`
 
 // conectar mongo
 mongoose.Promise = global.Promise
